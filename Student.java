@@ -1,5 +1,3 @@
-package com.company;
-
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
@@ -36,6 +34,4 @@ public class Student extends Person {
     public void addSubjects(List<Course> courses) {
         this.courses.addAll(courses);
     }
-
-
 }
