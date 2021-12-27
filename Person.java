@@ -1,24 +1,16 @@
-package com.company;
-
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
-
-enum Gender {
-    Male,
-    Female,
-    None
-        };
 
 public class Person{
 
     private final String name;
     private final String surname;
+    private int vkId;
     private Gender gender;
     private String city;
     private String birthdate;
     private String photo;
-    private int vkId;
 
     public Person(String name, String surname) {
         this.name = name;
@@ -26,9 +18,14 @@ public class Person{
         this.city = "None";
         this.birthdate = null;
         this.photo = "None";
-        this.vkId = -1000;
+        this.vkId = -1;
         gender = Gender.None;
     }
+    
+    enum Gender {
+    Male,
+    Female,
+    None };
 
     @Override
     public String toString() {
