@@ -1,6 +1,3 @@
-package com.company;
-
-
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 import com.vk.api.sdk.client.TransportClient;
@@ -10,14 +7,12 @@ import com.vk.api.sdk.exceptions.ApiException;
 import com.vk.api.sdk.exceptions.ClientException;
 import com.vk.api.sdk.httpclient.HttpTransportClient;
 import com.vk.api.sdk.objects.users.Fields;
-
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
 
 public class VkApi {
-
-    private static final String ACCESS_TOKEN = "2ad22de6fcbe8da4ffec4f1c9bf4479e0c7e71638492f8376157739178cfc9e828d27a01094f7d5e468fe";
+    private static final String ACCESS_TOKEN = "";
     private static final int APP_ID = 8001584;
     private final VkApiClient vk;
     private final UserActor actor;
