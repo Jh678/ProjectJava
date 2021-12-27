@@ -19,8 +19,8 @@ public class Course {
         var builder = new StringBuilder();
         for(var theme : themes)
             builder.append('\t').append(theme.toString());
-        return "Курс: " + name +" Группа: "+group +" Масимум баллов: " + maxScore
-        +" Темы: \n"+builder.toString();
+        return "Курс: " + name + " Группа: " + group + " Масимум баллов: " + maxScore
+        + " Темы: \n"+builder.toString();
 
     }
 
