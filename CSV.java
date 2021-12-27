@@ -30,7 +30,6 @@ public class CSV {
 
         List<Student> students = new ArrayList<>();
         List<String> themes = getThemes(parsedCSV);
-        ;
         List<String> tasksName = new ArrayList<>(parsedCSV.get(1));
 
         for (var i : parsedCSV.subList(3, parsedCSV.size())) {
