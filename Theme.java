@@ -1,5 +1,3 @@
-package com.company;
-
 import java.util.List;
 
 public class Theme {
@@ -7,6 +5,7 @@ public class Theme {
     private List<Task> tasks;
     private final int studentMaxPoint;
     private final int maxPoint;
+    
     public Theme(String name, List<Task> tasks, int studentMaxPoint, int maxPoint) {
         this.name = name;
         this.tasks = tasks;
