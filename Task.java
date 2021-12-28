@@ -19,7 +19,7 @@ public class Task {
 
     @Override
     public String toString() {
-        return "Задание: " + name+" - "+score;
+        return "Задание: " + name + " - "+score;
     }
 
     public int getMaxScore() {
