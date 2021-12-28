@@ -1,5 +1,3 @@
-package com.company;
-
 public class Task {
     private final String name;
     private final int score;
